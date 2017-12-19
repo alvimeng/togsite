@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+body {display: flex;min-height: 100vh;flex-direction: column;}
+main {flex: 1 0 auto;}
+p{font-size:14px; color:#a2a2a2; text-align: justify}
+body {font-family: 'Lato', sans-serif;}
+body a{font-size: 15px}
+
+/*Menu Superior*/
+.container{width: 80%}
+.logo-tog{height: 85px !important; padding: 15px}
+
+.menu-superior{background: #55a2bb;}
+nav .menu-superior{line-height: 50px; height: 50px}
+nav {height: auto!important}
+.menu-superior .entrar {background: #3b859d; color:#90cee2}
+.menu-superior .entrar:hover {background: #285969}
+.menu-superior a{color: #b8e1ee; font-size: 15px;}
+.menu-superior a i{line-height: 50px; margin-right: 3px; height: 50px;}
+
+.menu-superior-mobile{float:right;}
+nav .button-collapse {float: right; background: #bbb; height: 56px; margin: 10px; padding: 0px 16px; border-radius: 50%;}
+
+.icon-filtro {width: 100%; margin-top: 25px;height: 35px; line-height: 20px; color: #999999; border:1px solid #999; border-radius: 15px; padding: 5px; font-size: 15px}
+.icon-filtro input{width: 88%; float: right;}
+.icon-filtro input:not([type]):focus:not([readonly]){ border-bottom: none; -webkit-box-shadow: none; box-shadow: none}
+.icon-filtro img{height: 15px;position: absolute;}
+.icon-filtro .icon-local{height:18px}
+.icon-filtro .select-wrapper input.select-dropdown {height: 15px; border-bottom: none; color:#999; margin-top: 2px;}
+.icon-filtro .select-wrapper span.caret {color: #aeaeae;top: 23px;font-size: 17px;line-height: 10px;}
+.icon-filtro .browser-default {border: none; padding: 5px; background: none; height: 2rem; position: relative; top: -5px;}
+.icon-filtro .browser-default:focus {outline: none}
+#filtro-palavra {float:left; height: 18px}
+.call-action-verde{background: #8ebf7f; border-radius: 15px; padding: 8px; color: white;}
+.menu-navegar a{color:#a2a2a2; font-weight:400; padding: 10px;}
+.btn-pesquisar {position: relative;height: 28px;top: 0px;background: transparent; border: none;}
+.btn-pesquisar i {position: absolute;top: -18px;left: 0px;color: #55a2bb;}
+        @media (max-width:961px){.menu-superior-desktop{display: none}
+            .menu-navegar{display:none}
+            .call-action-verde {display: inline-block; width: 100%; padding: 0px; text-align:center;line-height: 35px;}
+            .menu-filtro{display: none}
+        }
+        @media (min-width:961px){.menu-superior-mobile{display: none}
+            .menu-filtro-mobile{display: none}
+        }
+        @media only screen and (max-width: 992px){ nav .brand-logo{ left: 25%}}
+        
+/*Content*/ 
+.card .card-content { padding: 15px}
+.user-esforco{font-size: 30px; position: relative; top: -10px; font-weight: 700}
+.number-esforco {position: relative; top: -10px; font-size: 22px}
+.azul{background: #55a2bb}
+.mais-esforco img{max-height: 150px}
+.mais-esforco p{font-size:13px}
+.mais-esforco .number-esforco{font-size: 18px}
+.icon-rodape{height: 85px; padding: 5px;}
+.tabela-detalhes{width: 50%}
+.card-title{color:#9e9e9e;}
+.invalido-form{position: relative;font-size: 10px;top: -15px;color:#F44336;}
+.descricao-esforco{font-size: 18px; line-height: 20px}
+
+/*Footer*/
+.page-footer{padding-top: 0px;}
+.social-footer{padding-top: 15px !important;}
